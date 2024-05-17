@@ -1,8 +1,12 @@
-# Let me introduce you to Flutter
+# Flutter and Dart: Empowering App Development like Never Before
 
 A presentation about Flutter. Implemented in Flutter. Neat.
 
-![Repository header](header.png)
+![Repository header](docs/images/header.png)
+
+[https://tech-andgar.github.io/flutter-presentation/](https://tech-andgar.github.io/flutter-presentation/)
+
+[Live presentation](https://link.tech-andgar.me/flutter-presentation-2024-05-17)
 
 ## Features
 
@@ -16,7 +20,6 @@ A presentation about Flutter. Implemented in Flutter. Neat.
 
 ## To-do
 
-- Fix layout/overflow issues - the presentation does not look very nice on smaller screens. For now, a trivial workaround is to zoom out the browser window.
 - Create a landing/initial page where you can see thumbnails of all the available slides. From there, you should be able to select/reorder them and generate the presentation. The main goal is to have a library of different slides, so you could build the specific presentation based on your audience/topic.
 
 ## Building
@@ -30,7 +33,7 @@ If you are new to Flutter, please first follow the [Flutter Setup](https://flutt
 ### Building and running the presentation
 
 ```
-git clone https://github.com/mkobuolys/flutter-presentation.git
+git clone https://github.com/tech-andgar/flutter-presentation.git
 cd flutter-presentation
 flutter pub get
 flutter run
