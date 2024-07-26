@@ -6,7 +6,7 @@ A presentation about Flutter. Implemented in Flutter. Neat.
 
 [https://tech-andgar.github.io/flutter-presentation/](https://tech-andgar.github.io/flutter-presentation/)
 
-[Live presentation](https://link.tech-andgar.me/flutter-presentation-2024-05-17)
+[Live presentation in International Sign Language (ISL)_](https://link.tech-andgar.me/flutter-presentation-2024-05-17)
 
 ## Features
 
