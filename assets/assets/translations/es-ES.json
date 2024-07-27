@@ -1,0 +1,246 @@
+{
+  "core": {
+    "language": "Idioma",
+    "languages": {
+      "en": {
+        "original": "English",
+        "translation": "Inglés"
+      },
+      "es": {
+        "original": "Español",
+        "translation": "Español"
+      }
+    }
+  },
+  "slides": {
+    "01_title": {
+      "title": "Flutter y Dart: \nEmpoderando el desarrollo de aplicaciones como nunca antes",
+      "subtitle": "Andrés García, \nSoftware Engineer"
+    },
+    "02_agenda":{
+      "title":"Agenda",
+      "about_me":"Sobre mí",
+      "flutter_101":"ABC Flutter",
+      "flutter_s_strengths":"Fortalezas de Flutter",
+      "flutter_in_action":"Flutter en acción",
+      "success_stories_integrations":"Casos de éxito e integraciones",
+      "learning_resources":"Recursos de aprendizaje",
+      "open_discussion_q_a":"Preguntas y Respuestas"
+    },
+    "03_about_me": {
+      "01": "- Desarrollador Sordo móvil FullStack de Colombia",
+      "02": "No es ",
+      "03": "Columbia",
+      "04": " Estado EE.UU, está en Sudamérica.",
+      "05": "- Conocimientos de tecnologías front-end, back-end y DevOps",
+      "06": "- Experiencia en el desarrollo de aplicaciones móviles con Apache Cordova antes de Flutter,",
+      "07": "- Usando Flutter desde v1.x"
+    },
+    "04_flutter_intro": {
+      "title": {
+        "01":"Que es ",
+        "02":"",
+        "03":"Flutter?"
+      },
+      "figure":{
+        "header":"Con soporte desde...",
+        "subheader":"...una única base de código"
+      },
+      "01": "Primera versión pública en 2017",
+      "02": "Kit de herramientas de interfaz de usuario de código abierto y marco declarativo de Google para crear compilaciones nativas",
+      "03": "Ciclo de desarrollo rápido con recarga en caliente (Hot Reload)",
+      "04": "Interfaz de usuario expresiva y flexible con widgets personalizables",
+      "05": "Fuerte apoyo de la comunidad y extensa documentación"
+    },
+    "05_flutter_strengths": {
+      "title": "Los pilares \nfundamentales \nde Flutter",
+      "slide":{
+        "home": "En su núcleo, \nFlutter está construido para ser:",
+        "fast":{
+          "title": "Rápido",
+          "subtitle": "Compila tu código fuente a código máquina,\napunta a al menos 60 FPS y utiliza su propio motor de renderizado"
+        },
+        "productive":{
+          "title": "Productivo",
+          "subtitle": "Hot reloads para aumentar la eficiencia"
+        },
+        "beautiful":{
+          "title": "Hermoso",
+          "subtitle": "Expresa tu marca en primer plano",
+          "custom_ui":{
+            "title": "Interfaz de usuario personalizada",
+            "01": "Material y Cupertino fuera de la caja",
+            "02": "¿El aspecto por defecto apesta? Personalízalo",
+            "03": "El movimiento crea emoción"
+          },
+          "animations_rive_info":{
+            "01":"Todo diseño está hecho de líneas rectas y curvas\n",
+            "02": "Interacciones avanzadas con Rive\n"
+          }
+        },
+        "open":{
+          "title": "Abierto",
+          "subtitle": "Únete a una comunidad global de desarrolladores"
+        },
+        "portable":{
+          "title": "Portable",
+          "subtitle": "se despliega donde necesitas estar"
+        }
+      }
+    },
+    "06_flutter_concepts":{
+      "title":"¿Cómo funciona Flutter?",
+      "left":{
+        "01":"Construido con C, C++, Dart e Impeller (motor gráfico de alto rendimiento de próxima generación)*, Skia sigue siendo la opción preferida para otros.",
+        "02":"Se encarga de cada píxel en la pantalla",
+        "03":"Utiliza Widgets -una unidad de composición- como bloques de construcción 'LEGO', inspirados en React, para crear interfaces de usuario poderosas y flexibles"
+      },
+      "note": "* API como Metal (iOS) y Vulkan (Android).",
+      "video":{
+        "01":"\"Everything is a Widget (Todo es un widget)\""
+      }
+    },
+    "07_dart": {
+      "title": "Por qué Flutter usa Dart",
+      "subtitle": "Dart es el ingrediente secreto detrás de Flutter",
+      "portable": {
+        "title": "Portátil",
+        "01": "Rendimiento nativo:\nCompila a código máquina o JS optimizado",
+        "02": "Bibliotecas multiplataforma extensas y consistentes"
+      },
+      "productive": {
+        "title": "Productivo",
+        "01": "Recarga en caliente con estado para desarrollo iterativo",
+        "02": "Concurrencia aislada por memoria"
+      },
+      "robust": {
+        "title": "Robusto",
+        "01": "Sistema de tipos en tiempo de ejecución seguro y Null Safety(verificación de valores nulos en español)",
+        "02": "Escalabilidad y confiabilidad de clase mundial de Google"
+      }
+    },
+    "08_flutter_for_mobile":{
+      "title": "Flutter para Móviles",
+      "01": "Android y iOS",
+      "02": "Rendimiento nativo",
+      "03": "Acceso a APIs específicas de la plataforma",
+      "04": "Integración en la aplicación"
+    },
+    "09_flutter_for_web":{
+      "title": "Flutter para Web",
+      "01": "Estable desde marzo de 2021",
+      "02": "¡Solo compila el código existente de Flutter y ejecútalo en la web!",
+      "03": "Funciona como SPA o PWA",
+      "04": "Renderizado HTML vs CanvasKit",
+      "05": "Soporte para WebAssembly [Wasm]* (con fallback a JavaScript) Estable a partir de mayo de 2024",
+      "06": "¿Video o Magia de Flutter?",
+      "note": "* Chromium y V8 lanzaron soporte estable para WasmGC en Chromium 119. Ten en cuenta que Chrome en iOS usa WebKit, que aún no soporta WasmGC. Firefox anunció soporte estable para WasmGC en Firefox 120, pero actualmente no funciona debido a una limitación conocida."
+    },
+    "10_flutter_for_desktop":{
+      "title": "Flutter para Escritorio",
+      "01": "Estable desde marzo de 2021",
+      "02": "Windows, macOS y Linux",
+      "03": "Flutter - la elección predeterminada para las futuras aplicaciones de Ubuntu"
+    },
+    "11_flutter_for_toaster":{
+      "title": "Flutter para IoT",
+      "01": "Coches",
+      "02": "Televisores",
+      "03": "Microcomputadoras",
+      "04": "Si lo puedes pensar, probablemente allí estará"
+    },
+    "12_flutter_around_you": {
+      "title": "Flutter a tu alrededor",
+      "01": "+5 millones de desarrolladores activos de Flutter",
+      "02": "+1 millón de aplicaciones Flutter publicadas en la App Store/Google Play Store",
+      "03": "Las empresas más grandes del mundo dicen SÍ a Flutter",
+      "04": "Github: Uno de los 3 principales repositorios de código abierto",
+      "05": "Ecosistema: 24K+ packages",
+      "google_products": "Productos de Google:",
+      "companies": "Empresas:"
+    },
+    "13_tooling": {
+      "title": "Herramientas",
+      "01": "Flutter SDK",
+      "02": "Dart DevTools",
+      "03": "Soporte para múltiples IDE",
+      "04": "Xcode para tareas específicas de la plataforma Apple"
+    },
+    "14_template_tool": {
+      "title": "Kit de Herramientas de Noticias Flutter",
+      "01": "Implementa la experiencia de usuario y características centrales de noticias utilizando Flutter y Firebase; utiliza la investigación de 'Google News Initiative' para las mejores prácticas en diseño de aplicaciones de su clase.",
+      "02": "Reduce la barrera de entrada para el desarrollo móvil",
+      "03": "Permite la expansión de los editores con nuevas aplicaciones móviles en Android/iOS",
+      "04": "Facilita las migraciones a Flutter, facilita el mantenimiento con una única base de código",
+      "05": "Monetiza rápidamente con anuncios móviles integrados de Google y servicios de suscripción IAP"
+    },
+    "15_integrations":{
+      "title": "Integraciones de Flutter",
+      "01": "Cloud - Google Firebase, AWS Amplify",
+      "02": "Diseño - Rive, Supernova, Figma y plugins de Adobe XD",
+      "03": "CI/CD \n- Codemagic\n- Bitrise \n- Appcircle\n- VS App Center\n- GitHub Actions\n- MS Azure Pipelines\n- GitLab CI/CD",
+      "04": "FaaS - Dart Functions Framework, Globe.dev, Google Cloud Run"
+    },
+    "16_community":{
+      "title": "Comunidad",
+      "01": "¡El código abierto es genial!",
+      "02": "Nos vemos en el pub.dev",
+      "03": "¿Necesitas ayuda? ¡Te respaldamos!",
+      "04": "Conferencias, meetups, Conoce a tus pares",
+      "05": "Flutteristas"
+    },
+    "17_drawbacks_of_flutter": {
+      "title": "Desventajas de Flutter",
+      "01": "Relativamente inmaduro",
+      "02": "No hay directrices oficiales para la arquitectura de aplicaciones",
+      "03": "El desarrollo multiplataforma es desafiante",
+      "04": "El estado de Flutter Web es más como una 'beta estable'"
+    },
+    "18_flutter_vs_react_native": {
+      "title": "Flutter vs React Native",
+      "01": "Impeller/Skia vs JavaScript Bridge",
+      "02": "React Native - comunidad más grande, pero ¿por cuánto tiempo?"
+    },
+    "19_transition_to_flutter": {
+      "title": "Transición a Flutter",
+      "01": "El conocimiento previo en POO salva el día",
+      "02": "La experiencia en desarrollo nativo no es necesaria pero se recomienda",
+      "03": "No hay cambio de mentalidad para los desarrolladores web"
+    },
+    "20_future_of_flutter": {
+      "title": "Futuro de Flutter",
+      "01": "Tendencia durante varios años consecutivos",
+      "02": "¿La mejor opción para el desarrollo de aplicaciones multiplataforma?",
+      "03": "Las grandes empresas están invirtiendo en Flutter",
+      "04": "La creciente cantidad de oportunidades laborales"
+    },
+    "21_resources": {
+      "title": "Me gusta, Compartir, Suscribirse",
+      "github": "para explorar",
+      "youtube": "para ver",
+      "twitter": "para ponerse en contacto",
+      "self_promotion":"Estoy en busca de nuevas oportunidades para colaborar en proyectos innovadores.\n¿Interesados en desarrollar una aplicación, mejorar la experiencia de usuario, o explorar cómo la tecnología puede impulsar su negocio?\n\n¡Contáctenos!"
+    },
+    "22_acknowledgments": {
+      "title": "Agradecimientos",
+      "00":"Nos gustaría expresar nuestro sincero agradecimiento a todas las personas que han contribuido a esta presentación:",
+      "01":"Mangirdas Kazlauskas / @mkobuolys - \n(Autor original de la plantilla de presentación)",
+      "011":"Por proporcionar la plantilla de presentación original, que ha sido modificada y mejorada para adaptarse a las necesidades de esta presentación.",
+      "02":"TDM - Shaders Seascape [https://www.shadertoy.com/view/Ms2SD1]",
+      "021":"Por compartir el código fuente del ejemplo de uso de shaders, que se ha utilizado para demostrar las capacidades gráficas de Flutter",
+      "03":"Felix Blaschke [@felixblaschke] - Proyecto Flutter Plasma",
+      "031":"Por proporcionar el código fuente del ejemplo de escenario web, que se ha empleado para mostrar las posibilidades de Flutter en el desarrollo web.",
+      "04":"Comunidad de Flutter",
+      "041":"Por su valiosa contribución al compartir conocimientos y experiencias, enriqueciendo así el ecosistema de Flutter y ayudando a desarrolladores en todo el mundo.",
+      "05":"Equipo de Flutter",
+      "051":"Por su incansable trabajo en el desarrollo y mantenimiento del marco de trabajo Flutter, proporcionando una herramienta poderosa y versátil para el desarrollo de aplicaciones multiplataforma.",
+      "06":"Equipo de GDG Bogotá",
+      "061":"Por promover la inclusión y hacer accesible esta información a las personas Sordas, implementando interpretación en Lengua de Señas Colombiana (LSC) - español en este evento.",
+      "07":"¡Gracias a todos por hacer posible esta presentación y por su contribución al éxito de Flutter!"
+    },
+    "23_thank_you": {
+      "title": "¡Gracias!",
+      "subtitle": "Es hora de sus preguntas."
+    }
+  }
+}

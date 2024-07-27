@@ -1,0 +1,243 @@
+{
+  "core": {
+    "language": "Language",
+    "languages": {
+      "en": {
+        "original": "English",
+        "translation": "English"
+      },
+      "es": {
+        "original": "Español",
+        "translation": "Spanish"
+      }
+    }
+  },
+  "slides": {
+    "01_title": {
+      "title": "Flutter and Dart: \nEmpowering App Development like Never Before",
+      "subtitle": "Andrés García, \nFullStack Mobile Developer (Flutter & Dart)"
+    },
+    "02_agenda": {
+      "title": "Agenda",
+      "about_me": "About me",
+      "flutter_101": "Flutter 101",
+      "flutter_s_strengths": "Flutter's Strengths",
+      "flutter_in_action": "Flutter in Action",
+      "success_stories_integrations": "Success Stories & Integrations",
+      "learning_resources": "Learning Resources",
+      "open_discussion_q_a": "Open Discussion & Q&A"
+    },
+    "03_about_me": {
+      "01": "- Deaf FullStack Mobile Developer from Colombia",
+      "02": "It is not",
+      "03": "Columbia",
+      "04": " State, it's in South America.",
+      "05": "- Skilled in front-end, back-end, and DevOps technologies",
+      "06": "- Some mobile app experience developing with Apache Cordova before Flutter,",
+      "07": "- Using Flutter since v1.x"
+    },
+    "04_flutter_intro": {
+      "title": {
+        "01":"What is ",
+        "02":"love ",
+        "03":"Flutter?"
+      },
+      "figure":{
+        "header":"With support for...",
+        "subheader":"...from a single codebase"
+      },
+      "01":"First public release in 2017",
+      "02":"Open-Source UI Toolkit and Declarative Framework by Google for building natively compiled",
+      "03":"Fast Development Cycle with Hot Reload",
+      "04":"Expressive and Flexible UI with Customizable Widgets",
+      "05":"Strong Community Support and Extensive Documentation"
+    },
+    "05_flutter_strengths": {
+      "title": "Flutter’s Foundational Pillars",
+      "slide":{
+        "home":"'At its core, Flutter is built to be:",
+        "fast":{
+          "title": "Fast",
+          "subtitle": "It compiles your source code to machine code,\naims for at least 60 FPS, \nand uses its own rendering engine."
+        },
+        "productive":{
+          "title": "Productive",
+          "subtitle": "Hot reloads to increase efficiency"
+        },
+        "beautiful":{
+          "title": "Beautiful",
+          "subtitle": "Express your brand at the forefront",
+          "custom_ui":{
+            "title":"Custom UI",
+            "01":"Material and Cupertino out of the box",
+            "02":"Default look sucks? Customize!",
+            "03":"Motion creates emotion"
+          },
+          "animations_rive_info":{
+            "01":"Every design is made of straight lines and curves\n",
+            "02":"Advanced interactions with Rive\n"
+          }
+        },
+        "open":{
+          "title": "Open",
+          "subtitle": "Join a global community of developers"
+        },
+        "portable":{
+          "title": "Portable",
+          "subtitle": "ships where you need to be"
+        }
+      }
+    },
+    "06_flutter_concepts":{
+      "title":"How Flutter works?",
+      "left":{
+        "01":"Built with C, C++, Dart, and Impeller (next-gen high-performance graphics engine)*, Skia remains the go-to for others.",
+        "02":"Takes charge of every pixel on the screen",
+        "03":"Uses Widgets -a unit of composition- as building blocks \"LEGO\", inspired by React, to create powerful and flexible user interfaces"
+      },
+      "note": "* APIs like Metal (iOS) and Vulkan (Android).",
+      "video":{
+        "01":"\"Everything is a Widget\""
+      }
+    },
+    "07_dart":{
+      "title": "Why Flutter uses Dart",
+      "subtitle": "Dart is the secret sauce behind Flutter",
+      "portable":{
+        "title": "Portable",
+        "01":"'Native performance:\nCompile to machine code or optimized JS",
+        "02":"Extensive, consistent multi-platform libraries"
+      },
+      "productive":{
+        "title":"Productive",
+        "01":"Stateful hot reload for iterative development",
+        "02":"Memory-isolated concurrency"
+      },
+      "robust":{
+        "title":"Robust",
+        "01":"Sound, null-safe runtime type system",
+        "02":"Google-class scalability & dependability"
+      }
+    },
+    "08_flutter_for_mobile":{
+      "title": "Flutter for Mobile",
+      "01": "Android and iOS",
+      "02":"Native performance",
+      "03":"Platform-specific APIs access",
+      "04":"Add-to-app"
+    },
+    "09_flutter_for_web":{
+      "title": "Flutter for Web",
+      "01": "Stable since March, 2021",
+      "02": "Just compile the existing Flutter code and run on Web!",
+      "03": "Works as SPA or PWA",
+      "04": "HTML vs CanvasKit rendering",
+      "05": "WebAssembly [Wasm]* support (with fallback to JavaScript) Stable as of May 2024",
+      "06": "Video or Flutter Magic?",
+      "note": "* Chromium and V8 released stable support for WasmGC in Chromium 119. Note that Chrome on iOS uses WebKit, which doesn't yet support WasmGC. Firefox announced stable support for WasmGC in Firefox 120, but currently doesn't work due to a known limitation."
+    },
+    "10_flutter_for_desktop":{
+      "title": "Flutter for Desktop",
+      "01": "Stable since March, 2021",
+      "02": "Windows, macOS and Linux",
+      "03": "Flutter - the default choice for future Ubuntu apps"
+    },
+    "11_flutter_for_toaster":{
+      "title": "Flutter for Toaster",
+      "01": "Cars",
+      "02": "TVs",
+      "03": "Microcomputers",
+      "04": "(You name it) - probably coming soon"
+    },
+    "12_flutter_around_you":{
+      "title": "Flutter around you",
+      "01":"+5 million active Flutter developers",
+      "02":"+1 million Flutter apps published to the App Store/Google Play Store",
+      "03":"World's largest companies say YES to Flutter",
+      "04":"Github: One of the top 3 open source repos",
+      "05":"Ecosystem: 24K+ packages",
+      "google_products": "Google products:",
+      "companies": "Companies:"
+    },
+    "13_tooling": {
+      "title": "Tooling",
+      "01": "Flutter SDK",
+      "02": "Dart DevTools",
+      "03": "Multiple IDE support",
+      "04": "Xcode for Apple platform-specific tasks"
+    },
+    "14_template_tool": {
+      "title": "Flutter News Toolkit",
+      "01": "Implements core news UX and features using Flutter and Firebase; Utilizes Google News Initiative research for best in class app design practices",
+      "02": "Reduces the barrier to entry for mobile development",
+      "03": "Enables publisher expansion with new mobile apps on Android/iOS",
+      "04": "Eases migrations to Flutter, eases maintenance with a single codebase",
+      "05": "Monetizes quickly with integrated Google Mobile Ads & IAP subscription services"
+    },
+    "15_integrations":{
+      "title": "Flutter Integrations",
+      "01": "Cloud - Google Firebase, AWS Amplify",
+      "02": "Design - Rive, Supernova, Figma and Adobe XD plugins",
+      "03": "CI/CD \n- Codemagic\n- Bitrise \n- Appcircle\n- VS App Center\n- GitHub Actions\n- MS Azure Pipelines\n- GitLab CI/CD",
+      "04": "FaaS - Dart Functions Framework, Globe.dev, Google Cloud Run"
+    },
+    "16_community":{
+      "title": "Community",
+      "01": "Open Source rocks!",
+      "02": "See you at the pub, developer",
+      "03": "Need help? We got your back!",
+      "04": "Conferences, meetups, watch parties",
+      "05": "Flutteristas"
+    },
+    "17_drawbacks_of_flutter": {
+      "title": "Drawbacks of Flutter",
+      "01": "Relatively immature",
+      "02": "No official guidelines for app architecture",
+      "03": "Cross-platform development is challenging",
+      "04": "Flutter Web status is more like a 'stable beta'"
+    },
+    "18_flutter_vs_react_native": {
+      "title": "Flutter vs React Native",
+      "01": "Impeller/Skia vs JavaScript Bridge",
+      "02": "React Native - larger community, but for how long?"
+    },
+    "19_transition_to_flutter": {
+      "title": "Transition to Flutter",
+      "01": "Previous OOP background saves the day",
+      "02": "Native development experience is not required but recommended",
+      "03": "No mindset shift for Web devs"
+    },
+    "20_future_of_flutter": {
+      "title": "Future of Flutter",
+      "01": "Trending for several years straight",
+      "02": "The best choice for cross-platform app development?",
+      "03": "Big companies are investing in Flutter",
+      "04": "The increasing amount of job opportunities"
+    },
+    "21_resources": {
+      "title": "Like, Share, Subscribe",
+      "github": "to explore",
+      "youtube": "to watch",
+      "twitter": "to get in touch"
+    },
+    "22_acknowledgments": {
+      "title": "Acknowledgments",
+      "00":"We would like to express our sincere gratitude to all individuals who have contributed to this presentation:",
+      "01":"Mangirdas Kazlauskas / @mkobuolys - (Original author of the presentation template)",
+      "011":"For providing the original presentation template, which has been modified and improved to suit the needs of this presentation.",
+      "02":"TDM - Shaders Seascape [https://www.shadertoy.com/view/Ms2SD1]",
+      "021":"For sharing the source code of the shaders usage example, which has been used to demonstrate Flutter's graphical capabilities",
+      "03":"Felix Blaschke [@felixblaschke] - Flutter Plasma Project",
+      "031":"For providing the source code of the web scenario example, which has been employed to showcase Flutter's possibilities in web development.",
+      "04":"Flutter Community",
+      "041":"For their valuable contribution in sharing knowledge and experiences, thus enriching the Flutter ecosystem and helping developers worldwide.",
+      "05":"Flutter Team",
+      "051":"For their tireless work in developing and maintaining the Flutter framework, providing a powerful and versatile tool for cross-platform application development.",
+      "06":"Thank you all for making this presentation possible and for your contribution to the success of Flutter!"
+    },
+    "23_thank_you": {
+      "title": "Thank you!",
+      "subtitle": "It's time for your questions."
+    }
+  }
+}
